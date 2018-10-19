@@ -1,6 +1,5 @@
 package softserve.academy;
 
-
 class Envelope implements Comparable<Envelope> {
     private double side1;
     private double side2;
@@ -26,7 +25,6 @@ class Envelope implements Comparable<Envelope> {
             throw new IllegalArgumentException("Size must be greater than zero");
         }
     }
-
 
     @Override
     public int compareTo(Envelope envelope) {
